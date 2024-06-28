@@ -39,7 +39,7 @@ public class BookRepository {
         this.addBook(book);
     }
 
-    private void addBook(Book book){
+    public void addBook(Book book){
         if (!bookList.contains(book)) {
             for(Book book1:bookList){
                 System.out.println(book1.getAuthor());
